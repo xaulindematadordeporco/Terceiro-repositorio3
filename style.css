@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&display=swap');
+
 :root {
     --bg-color: #343131; 
     --primary-color: #A04747;
@@ -6,14 +7,14 @@
     --front: "Embed code"
 
 }
-body{
+body {
     background-color: var(--bg-color);
     color: var(--primary-color);
-    font-family: var(--front);
+    font-family: var(--font);
     height: 100vh;
-    margin: 0%;
-
+    margin: 0;
 }
+
 h1 {
     font-size: 2rem;
     color: var(--bg-color);
@@ -39,12 +40,31 @@ header {
     padding: 1px;
 }
 
-
 nav a:hover {
     text-decoration: underline;
-    transform: scale(0,90);
+    transform: scale(0.90);
     transition: transform 0.1s;
 }
+
+.graficos-container__texto {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--secundary-color) solid 2px;
+}
+
+span {
+    font-weight: bold;
+    color: var(--secundary-color);
+}
+
+
+
+
+
+
+
+
 
 footer {
     display: flex;

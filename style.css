@@ -4,9 +4,10 @@
     --bg-color: #343131; 
     --primary-color: #A04747;
     --secundary-color:#D8A25E ;
-    --font: "Embed code"
+    --font: "Nunito Sans", sans-serif;
 
 }
+
 body {
     background-color: var(--bg-color);
     color: var(--primary-color);

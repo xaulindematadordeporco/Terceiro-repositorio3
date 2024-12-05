@@ -22,3 +22,6 @@ async function vizualizarInformacoesGlobais() {
 
 
 vizualizarInformacoesGlobais()
+
+
+
